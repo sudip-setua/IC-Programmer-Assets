@@ -1,0 +1,15 @@
+{
+  "tools": [
+    {
+      "id": "avr_toolchain",
+      "name": "AVR GCC Toolchain",
+      "description": "C Compiler for IC Chips",
+      "version": 1,
+      "size_mb": 5.0,
+      "languages": ["c", "cpp", "asm"],
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "bin/avr"
+    }
+  ]
+}
+
