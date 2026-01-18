@@ -1,15 +1,93 @@
 {
-  "tools": [
+  "languages": [
     {
-      "id": "avr_toolchain",
+      "id": "avr_gcc",
       "name": "AVR GCC Toolchain",
-      "description": "C Compiler for IC Chips",
+      "description": "C/C++ Compiler for Arduino & AVR Chips",
       "version": 1,
       "size_mb": 5.0,
-      "languages": ["c", "cpp", "asm"],
       "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
       "install_path": "bin/avr"
+    },
+    {
+      "id": "python_esp",
+      "name": "MicroPython Firmware",
+      "description": "Python interpreter for ESP32/ESP8266",
+      "version": 1,
+      "size_mb": 1.5,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "bin/micropython"
+    }
+  ],
+  "ics": [
+    {
+      "id": "lib_atmega328",
+      "name": "ATmega328p Library",
+      "description": "Core header files for Arduino Uno",
+      "version": 1,
+      "size_mb": 0.5,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "include/avr"
+    },
+    {
+      "id": "lib_esp32",
+      "name": "ESP32 Core Lib",
+      "description": "WiFi & Bluetooth libraries for ESP32",
+      "version": 1,
+      "size_mb": 12.0,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "include/esp32"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "proto_i2c",
+      "name": "Wire (I2C) Library",
+      "description": "Standard I2C communication protocol",
+      "version": 1,
+      "size_mb": 0.1,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "include/wire"
+    },
+    {
+      "id": "proto_spi",
+      "name": "SPI Library",
+      "description": "High speed serial interface protocol",
+      "version": 1,
+      "size_mb": 0.1,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "include/spi"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver_avrdude",
+      "name": "Avrdude Uploader",
+      "description": "Flash tool for AVR/Arduino chips",
+      "version": 6.3,
+      "size_mb": 2.5,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "bin/avrdude"
+    },
+    {
+      "id": "driver_esptool",
+      "name": "Esptool.py",
+      "description": "Flasher utility for ESP8266 & ESP32",
+      "version": 3.0,
+      "size_mb": 0.8,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "bin/esptool"
+    }
+  ],
+  "datasheets": [
+    {
+      "id": "pdf_atmega328",
+      "name": "ATmega328p Datasheet",
+      "description": "Complete technical reference manual (PDF)",
+      "version": 1,
+      "size_mb": 4.5,
+      "download_url": "https://github.com/sudip-setua/IC-Programmer-Assets/releases/download/v1.0/avr_toolchain.zip",
+      "install_path": "docs/atmega328.pdf"
     }
   ]
 }
-
